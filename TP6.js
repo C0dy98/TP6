@@ -15,4 +15,6 @@ window.onload = function(){
     function m4() {
         document.getElementById("h1").style.color="white";
     }
+    const myDiv = document.getElementById("my-div");
+    myDiv.innerHTML = "I hope that you <strong>enjoy</string>"
 }
